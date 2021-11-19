@@ -1,0 +1,21 @@
+{
+  "name": "hubtransport",
+  "version": "1.0.0",
+  "description": "Projeto CRUD com nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --report spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/batistacf/hubtransporte.git"
+  },
+  "author": "Fernando Batista",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "request": "^2.88.2"
+  }
+}
